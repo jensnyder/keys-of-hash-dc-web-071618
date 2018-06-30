@@ -9,6 +9,7 @@ class Hash
       if hash[key] == arguments
         keys << key
       end
+    end
     keys
   end
 end
