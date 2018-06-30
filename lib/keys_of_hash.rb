@@ -5,7 +5,9 @@ class Hash
   def keys_of(arguments)
     keys = []
     hash = {}
-    keys << arguments
+    hash.each do |key, value|
+      if hash[key] == arguments
+        keys << key
     keys
   end
 end
