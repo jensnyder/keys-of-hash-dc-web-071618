@@ -4,7 +4,6 @@ animals = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tort
 class Hash
   def keys_of(*arguments)
     each do |key, value|
-      end
     end
   end
 end
