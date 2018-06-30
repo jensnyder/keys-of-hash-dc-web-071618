@@ -8,6 +8,7 @@ class Hash
     hash.each do |key, value|
       if hash[key] == arguments
         keys << key
+        binding.pry
       end
     end
     keys
