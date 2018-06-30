@@ -4,7 +4,7 @@ animals = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tort
 class Hash
   def keys_of(*arguments)
     keys = []
-    hash.each do |key, value|
+    each do |key, value|
       if hash[key] == arguments
         keys << key
         binding.pry
