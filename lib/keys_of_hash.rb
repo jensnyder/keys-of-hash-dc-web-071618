@@ -4,6 +4,7 @@ animals = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tort
 class Hash
   def keys_of(arguments)
     keys = []
+    hash = {}
     keys << arguments
     keys
   end
