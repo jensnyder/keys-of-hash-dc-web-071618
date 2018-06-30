@@ -9,8 +9,8 @@ class Hash
         keys << key
       end
     end
-  end
   keys
+  end
 end
 
 puts animals.keys_of("Panama")
