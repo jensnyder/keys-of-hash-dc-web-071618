@@ -7,6 +7,7 @@ class Hash
     each do |key, value|
       if value == arguments
         keys << key
+      end
     end
   end
   keys
